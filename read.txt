@@ -1,0 +1,72 @@
+Django ------> DRF (serlizers, ModelSerilizer), Testipy, django-json , Django Ninja (Schema/BaseModel)
+Flask -------> marshmallow, flask-restful
+Pyramid 
+Fast API -----> Fast API (async + pydyntic models)
+
+Django Ninja
+============
+its is very easy.
+fast execution (pydyntic models + async support)
+automatic swagger documentation (Open API) OAS. so develpment is automatic.
+
+
+installtion
+============
+pip install django-ninja
+
+
+
+
+
+How to Create a basic API
+=========================
+
+
+
+
+Schema
+======
+it plays an import role in taking inputs from application.
+It also sends response to the client application.
+
+input types in API ------>  3 ways
+                            1. body
+                            2. path
+                            3. query
+                            4. form
+
+
+
+
+
+Input from Path
+===============
+http://127.0.0.1:8000/employee/{employee_id}
+
+http://127.0.0.1:8000/employee/1
+
+
+
+@api.get("/employee/{employee_id}/{user_id}")
+def employee_partcular_get(request,employee_id : int,user_id):
+    pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
